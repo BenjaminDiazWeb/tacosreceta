@@ -1,0 +1,39 @@
+body {background: #D1C8B4;}
+h1 {color: #4A4232;
+ font-family: 'Comic Sans MS', cursive, sans-serif; 
+font-size:60px;
+text-align: center;
+text-decoration: underline;}
+.ingredienti {color:#4D3E29;
+font-size:30px;
+text-align: center;
+text-decoration: underline;}
+.prep {color: #4D3E29;
+font-size:30px;
+text-align: center;
+text-decoration: underline;}
+.lomo {color: red;}
+img { width: 200px;
+  height: auto; 
+display: block;
+  margin-left: auto;  
+  margin-right: auto;}
+  .paula { width: 140px;
+  height: auto;}
+  .tacomovimiento { width: 20px;
+  height: auto;
+display: block;
+margin-left: 40px;
+margin-right: 0px;
+
+   }
+  li {font-size:10px;
+text-align: left;
+text-decoration: underline;}
+  iframe {width: 40%;
+  height: 40%;}
+  h2 {color: #4D3E29;
+font-style: italic;
+text-align: center;
+text-decoration: underline;}
+  
