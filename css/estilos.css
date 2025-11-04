@@ -1,6 +1,5 @@
 body {background-color:  #D1C8B4;
-   background-image: url(../imagenes.jpg/fondo.jpg);
-   }
+   background-image: url(../imagenes.jpg/fondo.jpg);}
 h1 {color: #4A4232;
  font-family:  Arial, sans-serif; 
 font-size:60px;
@@ -43,3 +42,26 @@ h2 {background-color: white;}
 a {background-color: white;}
 footer img { width: 50px;
     height: auto;}
+    .flotante {position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  transition: 0.3s ease;}
+.flotante a img {width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  display: block;}
+.flotante:hover {transform: scale(1.1);}
+  footer {display: flex;
+justify-content: center;
+justify-content: space-around;}
+.tacim {  display: flex;
+justify-content: space-between;}
+.videee {display: flex;
+justify-content: center;}
+.mpa {display: flex;
+justify-content: center;}
+.barra {font-style: italic;
+display: flex;
+justify-content: space-around;}
