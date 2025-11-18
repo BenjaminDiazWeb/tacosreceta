@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap');
 body {background-color:  #D1C8B4;
    background-image: url(../imagenes.jpg/fondo.jpg);}
-h1 {color: #4A4232;
+h1 {color: white;
  font-family:  Arial, sans-serif; 
 font-size:60px;
 text-align: center;
-text-decoration: underline;
-background-color: white;}
+height: 50px;}
 .ingredienti {color:#4D3E29;
 font-size:35px;
 text-align: center;
@@ -65,3 +65,31 @@ justify-content: center;}
 .barra {font-style: italic;
 display: flex;
 justify-content: space-around;}
+header {background-color: aquamarine;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+height: 40vh;}
+.login {height: 50%; }
+.cuatro {height: 30%;
+display: flex;}
+.redes {width: 55px;}
+.chefff {height: 60%;}
+.tituño {font-size: 30px;    
+font-family: "Momo Signature", cursive;
+font-weight: 400;
+font-style: normal;}
+footer {background-color: burlywood;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+height: 25vh;}
+.mpa { width: 120px;
+height: auto; }
+.redesfooter {display: flex;
+align-items: center;
+gap: 10px;}
+.imgfooter {width: 40px;}

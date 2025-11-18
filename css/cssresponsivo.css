@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap');
+header {
+background-color: aquamarine;
+display: flex;
+justify-content: center;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+height: 30vh;
+}
+.redes {width: 50px;}
+.rs {height: 30%;
+    display: flex;}
+.logo {
+height: 80%;    
+}
+h1 {
+font-size: 40px;    
+font-family: "Momo Signature", cursive;
+font-weight: 400;
+  font-style: normal;
+}
