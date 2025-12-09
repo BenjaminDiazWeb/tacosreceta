@@ -1,95 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap');
 body {background-color:  #D1C8B4;
    background-image: url(../imagenes.jpg/fondo.jpg);}
-h1 {color: white;
- font-family:  Arial, sans-serif; 
+h1 
+{color: white;
+font-family:  Arial, sans-serif; 
 font-size:60px;
 text-align: center;
-height: 50px;}
-.ingredienti {color:#4D3E29;
+height: 50px;
+}
+.ingredienti {
+color:#4D3E29;
 font-size:35px;
 text-align: center;
 text-decoration: underline;
-background-color: white;}
-.prep {color: #4D3E29;
+background-color: white;
+}
+.prep {
+color: #4D3E29;
 font-size:35px;
 text-align: center;
 text-decoration: underline;
-background-color: white;}
-img { width: 200px;
-  height: auto; 
+background-color: white;
+}
+img {
+width: 200px;
+height: auto; 
 display: block;
-  margin-left: auto;  
-  margin-right: auto;}
-  .paula { width: 140px;
-  height: auto;}
-  .tacomovimiento { width: 20px;
-  height: auto;
+}
+.paula {
+width: 140px;
+height: auto;
+}
+.tacomovimiento {
+width: 20px;
+height: auto;
 display: block;
 margin-left: 390px;
-margin-right: 0px;}
-  li { color: black;
-      font-size :10px;
+margin-right: 0px;
+}
+li {
+color: black;
+font-size :10px;
 text-align: center;
-background-color: white;}
-  iframe {width: 40%;
-  height: 40%;}
-  h2 {color: #4D3E29;
+background-color: white;
+}
+iframe {
+width: 40%;
+height: 40%;
+}
+h2 {
+color: #4D3E29;
 font-style: italic;
 text-align: center;
-text-decoration: underline;}
-h2 {background-color: white;}
-a {background-color: white;}
-footer img { width: 50px;
-    height: auto;}
-    .flotante {position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000;
-  transition: 0.3s ease;}
-.flotante a img {width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-  display: block;}
-.flotante:hover {transform: scale(1.1);}
-  footer {display: flex;
-justify-content: center;
-justify-content: space-around;}
-.tacim {  display: flex;
-justify-content: space-between;}
-.videee {display: flex;
-justify-content: center;}
-.mpa {display: flex;
-justify-content: center;}
-.barra {font-style: italic;
+text-decoration: underline;
+}
+h2 {
+background-color: white;
+}
+a {
+background-color: white;
+}
+footer img {
+width: 50px;
+height: auto;
+}
+.flotante {
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 1000;
+transition: 0.3s ease;
+}
+.flotante a img {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+display: block;
+}
+.flotante:hover {
+transform: scale(1.1);
+}
+footer {
 display: flex;
-justify-content: space-around;}
-header {background-color: aquamarine;
+justify-content: center;
+justify-content: space-around;
+}
+.tacim { 
+display: flex;
+justify-content: space-between;
+}
+.videee {
+display: flex;
+justify-content: center;
+}
+.barra {
+font-style: italic;
 display: flex;
 justify-content: space-around;
-align-items: center;
+}
+header {
+background-color: aquamarine;
+display: flex;
 flex-wrap: wrap;
-height: 40vh;}
-.login {height: 50%; }
-.cuatro {height: 30%;
-display: flex;}
-.redes {width: 55px;}
-.chefff {height: 60%;}
-.tituño {font-size: 30px;    
+align-items: center;
+justify-content: space-around;
+height: 40vh;
+padding: 50px;
+}
+.login {
+height: 50%; 
+}
+.cuatro {
+display: flex;
+}
+.redes {
+width: 55px;
+}
+.chefff {
+height: 80%;
+}
+.tituño {
+font-size: 30px;    
 font-family: "Momo Signature", cursive;
 font-weight: 400;
-font-style: normal;}
-footer {background-color: burlywood;
+font-style: normal;
+}
+footer {
+background-color: burlywood;
 display: flex;
-flex-direction: row;
 justify-content: space-around;
 align-items: center;
 flex-wrap: wrap;
-height: 25vh;}
-.mpa { width: 120px;
-height: auto; }
-.redesfooter {display: flex;
+height: 35vh;
+padding: 10px;
+}
+.mpa {
+height: 80%; 
+}
+.redesfooter {
+display: flex;
 align-items: center;
-gap: 10px;}
-.imgfooter {width: 40px;}
+gap: 10px;
+}
+.imgfooter {
+width: 40px;
+}
